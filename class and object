@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+class cal
+{
+public:
+int a,b;
+int addition()
+{
+return a+b;
+}
+}/*add*/; //object can be defined after the class (here) or inside the main also..
+int main()
+{
+cal add; //like this...
+add.a=5;
+add.b=5;
+cout<<add.addition();
+
+}
